@@ -1,0 +1,54 @@
+\documentclass[12pt, parskip]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{lit.bib}
+
+
+\title{Sicherheit von IoT-Geräten: Verschlüsselung und Schutz vor Angriffen}
+\author{Buse Okcu \\ \textbf{buse.okcu@study.thws.de}}
+\date{}
+
+
+
+
+\begin{document}
+\maketitle	
+
+\tableofcontents
+
+\section{Einleitung}
+
+Das Internet der Dinge (IoT) gewinnt im Alltag zunehmend an Bedeutung und mit diesem Wachstum sind IoT-Geräte zu primären Zielen für Cyberangriffe geworden. Um die sensiblen Daten der IoT-Geräte zu schützen, sind Verschlüsselungsalgorithmen notwendig geworden. Diese Forschung bietet einen allgemeinen Überblick über die grundlegenden Prinzipien und Sicherheitsmethoden, die zu diesem Zweck verwendet werden.
+
+\section{Ergebnisse}
+
+In diesem Kontext ermöglicht es das Lernen aus der Vergangenheit und die Nutzung der IT-Sicherheit, einige grundlegende Sicherheitspraktiken zu definieren. Beispielsweise:
+
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Die Sicherheit von IoT-Geräten muss während des gesamten Entwicklungs- und Betriebslebenszyklus gewährleistet werden.
+    \item Die Software, die auf allen IoT-Geräten läuft, sollte autorisiert und authentifiziert werden.
+    \item Geräte müssen sich validieren, bevor sie sich mit dem Netzwerk verbinden.
+    \item Aufgrund der begrenzten Verarbeitungs- und Speicherkapazitäten sind in IoT-Netzwerken Firewalls für die Paketfilterung erforderlich.\cite{Gilchrist_2017}\\
+\end{itemize}
+
+
+Aufgrund der begrenzten Verarbeitungs- und Speicherkapazitäten sind in IoT-Netzwerken Firewalls für die Paketfilterung erforderlich.
+
+Diese Sicherheitsmaßnahmen sollten durch Verschlüsselungsverfahren unterstützt werden, um die Datenintegrität und -sicherheit der IoT-Geräte zu gewährleisten.
+
+Verschlüsselung ist der Vorgang, bei dem Klartext (originale Daten) mithilfe eines bestimmten Algorithmus und Schlüssels in einen verschlüsselten Text umgewandelt wird. Die Entschlüsselung stellt den umgekehrten Prozess dar, bei dem der verschlüsselte Text mit demselben Schlüssel wieder in Klartext zurückverwandelt wird.In IoT-Geräten kommen häufig symmetrische und asymmetrische Verschlüsselungsalgorithmen zum Einsatz. Symmetrische Verschlüsselungsalgorithmen wie AES (Advanced Encryption Standard) gewährleisten die Vertraulichkeit der Daten, während asymmetrische Verschlüsselung wie RSA (Rivest-Shamir-Adleman) die sichere Verteilung von Schlüsseln ermöglicht.
+
+Um die Sicherheit von IoT-Geräten zu gewährleisten, ist nicht nur die Ende-zu-Ende-Verschlüsselung der Kommunikationskanäle erforderlich, sondern auch die Verschlüsselung der auf den Geräten und in der Cloud gespeicherten Daten. Beispielsweise können Nachrichten auf den Geräten verschlüsselt sein, aber in Cloud-Backups wird die Verschlüsselung häufig vernachlässigt. Diese Vernachlässigung kann dazu führen, dass Daten unbefugtem Zugriff ausgesetzt werden.\cite{Gilchrist_2017}
+
+Zudem können Standard- oder festgelegte Passwörter Sicherheitslücken verursachen. Auch wenn Benutzer ihre Passwörter ändern, bleiben sie häufig auf unsicheren Niveaus. Solche schwachen Sicherheitsmaßnahmen werden durch die Ressourcenbeschränkungen von IoT-Geräten und das Fehlen der Möglichkeit, fortschrittliche Sicherheitsmaßnahmen bereitzustellen, noch weiter verkompliziert.\cite{2020}
+
+\section{Fazit}
+
+Die Umsetzung grundlegender Sicherheitspraktiken ist entscheidend, um IoT-Geräte vor Cyberangriffen zu schützen. Die gewonnenen Erkenntnisse aus der Vergangenheit bieten eine wichtige Grundlage für die Verbesserung der IoT-Sicherheit in der Zukunft.
+
+\printbibliography
+
+\end{document}
