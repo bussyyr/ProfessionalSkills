@@ -1,4 +1,4 @@
-# ProfessionalSkills
+# Professional Skills
 
 This repository contains my work from the Professional Skills course, including extended abstracts, projects, and related materials. It demonstrates my growth and proficiency in technical and professional development.
 
